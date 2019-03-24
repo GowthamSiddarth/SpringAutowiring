@@ -1,16 +1,16 @@
-package com.gowtham.service;
+package com.gowtham.service.xml;
 
 import com.gowtham.model.Employee;
 
-public class EmployeeServiceWithXML {
+public class EmployeeService {
     private Employee employee;
 
-    public EmployeeServiceWithXML(Employee employee) {
+    public EmployeeService(Employee employee) {
         this.employee = employee;
         System.out.println("Autowiring by Constructor");
     }
 
-    public EmployeeServiceWithXML() {
+    public EmployeeService() {
         System.out.println("Default Constructor");
     }
 
